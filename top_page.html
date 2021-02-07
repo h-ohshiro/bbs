@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/top_page.css" />
+    <title>Programmer's Dawn</title>
+  </head>
+  <body>
+    <header>
+      <div class="left_header">
+        <h2>Programmer's Dawn</h2>
+      </div>
+    </header>
+
+    <div class="wrapper_message">
+      <p>
+        30代以上からプログラマーを目指す方々の情報交換や悩み相談の掲示板です。<br />
+        我々は新たなスキルを求めた挑戦者であり、見えるのは明るい未来、そして今はその道へ進むための黎明期です。
+      </p>
+    </div>
+    <div class="wrapper">
+      <img src="img/top_page.jpg" alt="パソコンの画像" />
+      <div class="login">
+        <form action="top_branch.php" method="post">
+          <p>name</p>
+          <input type="text" name="name" class="txt" size="20em" />
+          <p>PassWord</p>
+          <input type="password" name="pass" class="txt" size="20em" /><br />
+          <div class="login_submit">
+            <input type="submit" name="login" value="login" class="btn" />
+          </div>
+          <div class="new_member">
+            <p>新規登録はこちら</p>
+            <input type="submit" value="sign up" class="btn" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
